@@ -1,0 +1,31 @@
+/*
+* Cristina Herb
+* 3/8/19
+* Girl Develop It  
+*/
+
+/* The universal selector */
+
+* { 
+
+}
+
+/* Body attributes here */
+
+body {
+background-color: #F8E5E5; /* This changes the background color of the body */
+}
+
+header {background-color: #FA6767; /* This changes the background color of the header */
+        text-align: center;} /* This centers the header */
+main {font-family: sans-serif, fantasy, serif;} /* This changes the font of the body */
+
+.pic {float: right; /* This floats specific images with the class "pic" to the right */
+    width: 325px; /* This changes the widht of specific images with the class "pic" */
+    height: 200px; } /* This changes the height of specific images with the class "pic" */
+
+h1, h2 {font-family: cursive, sans-serif, serif; /* This changes the fonts the headings */
+    text-decoration: underline;} /* This underlines the headings */
+
+a:hover, a:focus {color: fuchsia; /* This changes the link color to fushia when you scroll over it */
+                font-size: 20px;} /* This makes the font size of the link larger when you scroll over it */
